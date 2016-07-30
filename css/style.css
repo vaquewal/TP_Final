@@ -1,3 +1,12 @@
-
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.team {
+  padding: 3px 36px; }
+  .team img {
+    width: 100%; }
+  .team .social {
+    text-align: center; }
+    .team .social span {
+      font-size: 30px;
+      padding: 0 8px; }
 
 /*# sourceMappingURL=style.css.map */
