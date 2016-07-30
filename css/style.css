@@ -60,6 +60,18 @@
 .services, .portfolio_row {
   margin: 100px 0; }
 
+.workteam .fondo-team {
+  background: #94ECD0;
+  position: relative;
+  bottom: 20px;
+  padding-bottom: 20px; }
+  .workteam .fondo-team h3 {
+    padding-top: 20px; }
+  .workteam .fondo-team .p-team {
+    width: 90%;
+    margin: auto;
+    padding-bottom: 18px; }
+
 .servicio {
   border: 1px solid #7BC7B1; }
   .servicio p {
