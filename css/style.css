@@ -20,28 +20,10 @@
         margin: auto 0;
         border-radius: 100%; }
 
-.container .about-us {
-  padding-bottom: 100px; }
-  .container .about-us h2 {
-    color: #4070FF;
-    text-align: center;
-    padding-top: 30px;
-    font-weight: bold; }
-  .container .about-us h3 {
-    text-align: center;
-    padding-bottom: 50px;
-    font-size: 20px;
-    padding-left: 20px;
-    font-weight: bold; }
-  .container .about-us article {
-    padding-top: 50px; }
-    .container .about-us article p {
-      padding-bottom: 20px; }
-    .container .about-us article .smallimg img {
-      width: 120%; }
-  .container .about-us div img {
-    padding-left: 25px;
-    width: 110%; }
+.about_img img {
+  width: 100%;
+  padding: 0 !important;
+  margin: 0 !important; }
 
 .team {
   margin: 0;
@@ -57,7 +39,7 @@
 .portfolio .row img, .workteam {
   padding: 0 !important; }
 
-.services, .portfolio_row {
+.services, .portfolio_row, .about-us {
   margin: 100px 0; }
 
 .workteam .fondo-team {
@@ -78,7 +60,7 @@
     margin: 25px 0;
     line-height: 30px; }
 
-.grupo_servicios, .grupo_portfolio {
+.grupo_servicios, .grupo_portfolio, .grupo_about {
   margin-top: 50px; }
 
 .fila1, .fila2 {
