@@ -58,6 +58,23 @@
 	 margin: 100px 0;
 }
 
+.workteam{
+	.fondo-team{
+		background: $color1;
+		position: relative;
+    	bottom: 20px;
+    	padding-bottom: 20px;
+    	h3{
+    		padding-top: 20px;
+    	}
+    	.p-team{
+    		width: 90%;
+    		margin: auto;
+    		padding-bottom: 18px;
+    	}
+	}
+}
+
 .servicio {
 	border: 1px solid $color3;
 	p {
@@ -83,7 +100,6 @@
 		padding: 22px;
 	}
 }
-
 footer{
 	margin-top: 100px;
 	background: rgba(3, 169, 244, 0.08);
