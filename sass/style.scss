@@ -105,18 +105,33 @@
 	margin:0;
 }
 
+.contact-form{
+	margin-top: 100px;
+	.form{
+		margin-top: 50px;
+	}
+	input{
+		padding: 22px;
+	}
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer{
+	margin-top: 100px;
+	background: rgba(3, 169, 244, 0.08);
+	.social-footer{
+		margin-top: 25px;
+		span{
+			font-size: 55px;
+			margin: 0 38px;
+		}
+	}
+	hr{
+		margin-top: 15px;
+		width: 70%;
+		border: 1.5px solid rgba(0, 114, 255, 0.28);
+	}
+	.derechos{
+		font-size: 10px;
+	}
+}
 
