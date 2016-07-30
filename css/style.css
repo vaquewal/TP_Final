@@ -1,5 +1,44 @@
 @import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.banner {
+  background-image: url(https://images5.alphacoders.com/377/377018.jpg); }
+  .banner .container {
+    padding-bottom: 100px; }
+    .banner .container .row img {
+      border-radius: 40%;
+      margin-left: 350px;
+      margin-top: 100px; }
+    .banner .container .row h1 {
+      text-align: center;
+      font-weight: bold;
+      color: gold; }
+    .banner .container .row h2 {
+      text-align: center; }
+
+.container .about-us {
+  padding-bottom: 100px; }
+  .container .about-us h2 {
+    color: #4070FF;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold; }
+  .container .about-us h3 {
+    text-align: center;
+    padding-bottom: 50px;
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: bold; }
+  .container .about-us article {
+    padding-top: 50px; }
+    .container .about-us article p {
+      padding-bottom: 20px; }
+    .container .about-us article .smallimg img {
+      width: 120%; }
+  .container .about-us div img {
+    padding-left: 25px;
+    width: 110%; }
+
 .team {
+  margin: 0;
   padding: 3px 36px; }
   .team img {
     width: 100%; }
@@ -9,7 +48,14 @@
       font-size: 30px;
       padding: 0 8px; }
 
-.portfolio .row img {
-  padding: 0; }
+.portfolio .row img, .workteam {
+  padding: 0 !important; }
+
+.contact-form {
+  margin-top: 100px; }
+  .contact-form .form {
+    margin-top: 50px; }
+  .contact-form input {
+    padding: 22px; }
 
 /*# sourceMappingURL=style.css.map */
